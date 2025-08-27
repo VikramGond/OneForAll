@@ -50,5 +50,15 @@ function isPrime() {
   }
 }
 
+function sqRoot() {
+  const num3 = document.getElementById('sqNum').value;
+  let sqroot = num3 * num3
 
+  if(num3 <= 0){
+    document.getElementById('result3').innerHTML = `Please enter a number greater then 0`
+  }else{
+    document.getElementById('result3').innerHTML = `The Square root of ${num3} is ${sqroot}`
+  }
+
+}
 
